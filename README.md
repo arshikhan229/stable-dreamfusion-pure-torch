@@ -16,6 +16,8 @@ stable-dreamfusion/
 └── training/
 └── train.py
 
+This structure organizes the code into logical components, making it easier to maintain and extend. You can adjust the specific contents of each file as needed based on the detailed logic and functionality of your original script.
+
 
 - `README.md`: This file. Contains information about the project and instructions for setup and usage.
 - `main.py`: The main script that initiates the training process.
@@ -61,6 +63,10 @@ Upsample_steps = 32
 Checkpoint = 'latest'
 Workspace = "trial"
 
+
+
+
+
 Output
 The training results will be saved in the directory specified by the Workspace parameter.
 
@@ -70,5 +76,5 @@ Feel free to open issues or submit pull requests if you have suggestions or impr
 License
 This project is licensed under the MIT License.
 
-This structure organizes the code into logical components, making it easier to maintain and extend. You can adjust the specific contents of each file as needed based on the detailed logic and functionality of your original script.
+
 
