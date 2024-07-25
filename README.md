@@ -40,22 +40,6 @@ This structure organizes the code into logical components, making it easier to m
     ```
 
 
-    ## Training Settings
-
-You can customize training settings in `config/training_config.py`. The default settings are:
-
-```python
-Prompt_text = "an apple"
-Training_iters = 3000
-Learning_rate = 1e-3
-Training_nerf_resolution = 64
-Seed = 0
-Lambda_entropy = 1e-4
-Num_steps = 64
-Upsample_steps = 32
-Checkpoint = 'latest'
-Workspace = "trial"
-
 ## Usage
 
 1. Configure training parameters in `config/training_config.py`.
