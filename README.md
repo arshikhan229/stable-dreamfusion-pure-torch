@@ -39,15 +39,8 @@ This structure organizes the code into logical components, making it easier to m
     bash setup/install_dependencies.sh
     ```
 
-## Usage
 
-1. Configure training parameters in `config/training_config.py`.
-2. Run the main script to start training:
-    ```bash
-    python main.py
-    ```
-
-## Training Settings
+    ## Training Settings
 
 You can customize training settings in `config/training_config.py`. The default settings are:
 
@@ -63,7 +56,13 @@ Upsample_steps = 32
 Checkpoint = 'latest'
 Workspace = "trial"
 
+## Usage
 
+1. Configure training parameters in `config/training_config.py`.
+2. Run the main script to start training:
+    ```bash
+    python main.py
+    ```
 
 
 
